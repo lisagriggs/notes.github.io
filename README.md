@@ -1,1 +1,1 @@
-# learning.github.io
+Learning notes for a front-end enginner course 👩‍💻
