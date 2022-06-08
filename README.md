@@ -1,3 +1,3 @@
 Learning notes for a front-end enginner course 👩‍💻
 
-LIVE: https://lisagriggs.github.io/learning.github.io/
+LIVE: <a href="https://lisagriggs.github.io/learning.github.io/" target="_blank">https://lisagriggs.github.io/learning.github.io/</a>
