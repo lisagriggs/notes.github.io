@@ -1,0 +1,70 @@
+body {
+    margin: auto;
+    width: 60%;
+    color: #342048;
+    font-family: Helvetica, "Arial", serif;
+}
+
+.linebreak {
+    height: 2px;
+    width: 100%;
+    background-color:#a398af;
+    margin-bottom: 5px;
+}
+.buttons {
+    display: flex;
+}
+
+.skeuomorphic {
+    margin-right: 15px;
+    padding-right: 10px;
+    border-right: 1px dashed #b6b6b6;
+}
+
+.flat {
+    padding-left: 10px;
+}
+  
+.skeu-button {
+    display: inline-block;
+    width: 60%;
+    padding: 13px 20px;
+    color: #fff;
+    background-color: #5b3185;
+    border: 2px solid #6b2b6b;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: #c1b8ca 0px 4px;
+    text-align: center;
+}
+  
+.skeu-button:hover {
+    cursor: pointer;
+    color: #988E94;
+}
+  
+.skeu-button:active {
+    background-color: #5b3185;
+    box-shadow: 0px 0px;
+    transform: translateY(4px);
+  }
+
+.flat-button {
+    display: inline-block;
+    width: 60%;
+    margin: 2px auto;
+    padding: 13px 20px;
+    color: #fff;
+    background-color: #5b3185;
+    border: 2px solid #6b2b6b;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flat-button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #532d79;
+    font-weight: bold;
+}
