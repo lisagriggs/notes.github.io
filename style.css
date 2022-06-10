@@ -11,18 +11,17 @@ body {
     background-color:#a398af;
     margin-bottom: 5px;
 }
+
 .buttons {
     display: flex;
 }
+
+/* SKEUOMORPHIC BUTTON */
 
 .skeuomorphic {
     margin-right: 15px;
     padding-right: 10px;
     border-right: 1px dashed #b6b6b6;
-}
-
-.flat {
-    padding-left: 10px;
 }
   
 .skeu-button {
@@ -49,6 +48,12 @@ body {
     transform: translateY(4px);
   }
 
+/* FLAT BUTTON */
+
+.flat {
+    padding-left: 10px;
+}
+
 .flat-button {
     display: inline-block;
     width: 60%;
@@ -68,3 +73,87 @@ body {
     background-color: #532d79;
     font-weight: bold;
 }
+
+/* BREADCRUMB 1 */
+
+.breadcrumb-1 {
+    padding-left: 0px;
+}
+
+.breadcrumb-1 > li {
+    display: inline;
+  }
+
+
+.breadcrumb-1 li+li::before{
+    content: ">";
+    padding: 10px;
+}
+
+.breadcrumb-1 a {
+    color: #342048;
+    text-decoration: none;
+  }
+
+.breadcrumb-1 a:hover {
+    color: #5b3185;
+    text-decoration: underline;
+
+}
+
+/* BREADCRUMB 2 */
+
+.breadcrumb-2 {
+    padding-left: 0px;
+}
+
+.breadcrumb-2 > li {
+    display: inline;
+  }
+
+.breadcrumb-2 a {
+    color: #fff;
+    background-color: #5b3185;
+    text-decoration: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 6px 5px;
+  }
+
+.breadcrumb-2 a::before,
+.breadcrumb-2 a::after {
+  content: "";
+  position: absolute;
+  border-color: #5b3185;
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+.breadcrumb-2 a::before {
+    left: -10px;
+    border-left-color: transparent;
+  }
+  .breadcrumb-2 a::after {
+    left: 100%;
+  }
+
+  .breadcrumb-2 a::after {
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #5b3185;
+  }
+
+  .breadcrumb-2 a:hover {
+    background-color: #342048;
+  }
+  .breadcrumb-2 a:hover::before {
+    border-color: #342048;
+    border-left-color: transparent;
+  }
+  .breadcrumb-2 a:hover::after {
+    border-left-color: #342048;
+  }
+
