@@ -104,7 +104,7 @@ body {
 /* BREADCRUMB 2 */
 
 .breadcrumb-2 {
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 .breadcrumb-2 > li {
@@ -129,7 +129,8 @@ body {
   position: absolute;
   border-color: #5b3185;
   border-style: solid;
-  border-width: 15px 5px;
+  border-width: 14.7px 5px;
+  vertical-align: super;
 }
 
 .breadcrumb-2 a::before {
@@ -157,3 +158,62 @@ body {
     border-left-color: #342048;
   }
 
+  /* BREADCRUMB 3 */
+
+  .breadcrumb-3 {
+    padding-left: 0;
+  }
+
+
+  .breadcrumb-3 li {
+    display: inline;
+
+  }
+
+  .breadcrumb-3 a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .breadcrumb-3 li.location+li.location::before {
+    content: "/ ";
+    padding: 5px;
+  }
+  
+  .breadcrumb-3 li.attribute a {
+    color: rgb(125, 125, 125);
+  }
+
+  .breadcrumb-3 li.attribute::before {
+    content: "> ";
+    padding: 5px;
+  }
+
+
+  .breadcrumb-3 li.attribute::after {
+    content: "x";
+    color: rgb(133, 133, 133);
+    font-size: 10px;
+    vertical-align: super;
+  }
+
+
+  /* HTML HEADERS LIST */
+
+  .html-headers {
+    list-style: circle;
+    padding-left: 17px;
+  }
+
+  .tag {
+    font-weight: bold;
+    font-style: oblique;
+    color: #532d79;
+    font-size: 18px;
+  }
+
+  .important-info {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #532d79;
+  }
